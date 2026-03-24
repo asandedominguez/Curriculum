@@ -1,0 +1,160 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #FFF9E6;
+}
+.lista ul{
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+   word-break: break-all;
+   justify-content: space-between;
+   margin-bottom: 0;
+   margin-top: 0;
+   align-items: flex-start;
+   height: 70%;
+}
+
+.uno, .dos, .tres, .cuatro, .cinco {
+   background-color: #66D7D1;
+   width: 110%;
+   padding: 6%;
+   display: flex;
+   border: 2px solid black;
+   font-size: 180%;
+}
+
+a {
+   text-decoration: none;
+   color: #000000;
+}
+.todo {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.ivan, .Andres, .Peraza, .Do, .Nascimento {
+   margin-top: 2%;
+}
+.imagen {
+   grid-column: 3;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   word-break: break-all;
+   margin-right: 7%;
+}
+.Alan {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   grid-column: 3;
+   word-break: break-all;
+   justify-content: right;
+   font-size: 130%;
+   width: 60%;
+}
+.redes {
+   background-color: rgb(3, 33, 77);
+   word-break: break-all;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   grid-column: 3;
+   width: 60%;
+   height: 57%;
+}
+.imagen img {
+   width: 60%;
+   height: 30%;
+}
+.redes img {
+   width: 15%;
+   height: 70%;
+   display: flex;
+   word-break: break-all;
+   flex-direction: column;
+   align-items: flex-end;
+   grid-column: 3;
+
+}
+.redes ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 1rem;
+   grid-column: 3;
+   word-break: break-all;
+   width: 90%;
+   height: 90%;
+}
+.redes li {
+   margin-left: 3%;
+   display: flex;
+}
+.uno:hover, .dos:hover, .tres:hover, .cuatro:hover, .cinco:hover {
+   background-color: #FFF87F;
+}
+.texto {
+   display: flex;
+   word-break: break-all;
+   flex-direction: column;
+   grid-column: 2;
+   font-size: 250%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.rojo {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 90%;
+   margin-left: 60%;
+   word-break: normal;
+   line-height: 2.5;
+}
+.secundario .rojo {
+    line-height: 1.5;
+    word-break: normal;
+    font-size: 50%;
+    border: 1px solid black;
+    padding: 5%;
+    text-align: left;
+}
+.terciario .rojo {
+    line-height: 1.5;
+    word-break: normal;
+    font-size: 50%;
+    border: 1px solid black;
+    padding: 5%;
+    display: block;
+    text-align: left;
+}
+.cuarto .rojo {
+    line-height: 1.5;
+    word-break: normal;
+    font-size: 50%;
+    border: 1px solid black;
+    padding: 5%;
+    display: block;
+    text-align: left;
+}
+.quinto .rojo {
+    line-height: 1.5;
+    word-break: normal;
+    font-size: 50%;
+    border: 1px solid black;
+    padding: 5%;
+    display: block;
+    text-align: left;
+}
+.sexto .rojo {
+    line-height: 1.5;
+    word-break: normal;
+    font-size: 50%;
+    border: 1px solid black;
+    padding: 5%;
+    display: block;
+    text-align: left;
+}
+
